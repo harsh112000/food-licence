@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/header';
 import Banner from './components/Banner/banner';
 import Services from './components/Servicess/service';
@@ -12,20 +11,18 @@ import FindOutlet from './components/FindOutlet/find-outlet';
 import Footer from './components/Footer/footer';
 
 const App = () => (
-  <Router>
+  <div>
     <Header />
-    <Routes>
-      <Route path="/" element={<Banner />} />
-      <Route path="/services" element={<Services />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/certification" element={<Certification />} />
-      <Route path="/certified" element={<Certified />} />
-      <Route path="/top-choice" element={<TopChoice />} />
-      <Route path="/food-gallery" element={<FoodGallery />} />
-      <Route path="/find-outlet" element={<FindOutlet />} />
-    </Routes>
+    <Banner />
+    <Services />
+    <About />
+    <Certification />
+    <Certified />
+    <TopChoice />
+    <FoodGallery />
+    <FindOutlet />
     <Footer />
-  </Router>
+  </div>
 );
 
 export default App;

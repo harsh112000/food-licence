@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import "./index.css";
-import logo from "../../assets/logo.png";
+import "./index.css"
+import logo from "../../assets/logo.png"
 
 const Header = () => (
   <header>
@@ -9,12 +8,12 @@ const Header = () => (
       <img src={logo} alt="logo" />
       <nav>
         <ul>
-          <li><Link to="/" className="nav-link">Home</Link></li>
-          <li><Link to="/about" className="nav-link">About Us</Link></li>
-          <li><Link to="/process" className="nav-link">Process</Link></li>
-          <li><Link to="/partners" className="nav-link">Partners</Link></li>
-          <li><Link to="/contact" className="nav-link">Contact Us</Link></li>
-          <button><Link to="/sign-in" className="button-link">Sign In</Link></button>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Process</li>
+          <li>Partners</li>
+          <li>Contact Us</li>
+          <button>Sign In</button>
         </ul>
       </nav>
     </div>
