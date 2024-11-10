@@ -64,3 +64,17 @@ button {
 button:hover {
     background-color: #e55b00;
 }
+
+
+.nav-link, .button-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.button-link {
+    color: #fff;
+}
+
+.button-link:hover {
+    color: #fff;
+}
