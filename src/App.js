@@ -9,7 +9,7 @@ import TopChoice from './components/TopChoice/top-choice';
 import FoodGallery from './components/FoodGallery/food-gallery';
 import FindOutlet from './components/FindOutlet/find-outlet';
 import Footer from './components/Footer/footer';
-
+import SudhFood from './components/SudhFood.js/sudh-food';
 const App = () => (
   <div>
     <Header />
@@ -19,6 +19,7 @@ const App = () => (
     <Certification />
     <Certified />
     <TopChoice />
+    <SudhFood />
     <FoodGallery />
     <FindOutlet />
     <Footer />
