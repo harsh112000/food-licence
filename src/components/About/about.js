@@ -1,6 +1,9 @@
+
+
+
 import React from 'react';
 import "./index.css";
-import image from "../../assets/Frame 4.png";
+import image from "../../assets/Frame 4.png"; 
 
 const About = () => (
   <section className="about-section">
